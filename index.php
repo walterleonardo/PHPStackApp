@@ -19,7 +19,7 @@ and open the template in the editor.
         <h1>This is a webpage that show an APP with PHP</h1>
         <img src="wadisaquienes.png" width="200" height="180" alt="Quienes somos?">
         <h4><?php
-echo "Hoy es <b>" . date("l") . date("d-m-Y") . "</b><br>";
+echo "Hoy es <b>" . date("l") ." ". date("d-m-Y") . "</b><br>";
 echo "El hostname es  <b>".gethostname(). "</b><br>";
 echo 'Versión actual de PHP:  <b>' . phpversion(). "</b><br><br><br>";
 echo 'Su ip es:  <b>' . $remote. "</b><br>";
