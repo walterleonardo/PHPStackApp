@@ -16,7 +16,7 @@ and open the template in the editor.
     </head>
     <body>
     <center>
-        <h1>This is a webpage that show an APP with PHP</h1>
+        <h1>This is a WEBSERVER in AWS that show an APP with PHP</h1>
         <img src="wadisaquienes.png" width="200" height="180" alt="Quienes somos?">
         <h4><?php
 echo "Hoy es <b>" . date("l") ." ". date("d-m-Y") . "</b><br>";
